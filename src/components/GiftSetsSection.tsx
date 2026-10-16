@@ -41,7 +41,7 @@ export const GiftSetsSection: React.FC<GiftSetsSectionProps> = ({
           <div className="lg:col-span-6 rounded-3xl overflow-hidden bg-white border border-[#E7E3DE] p-6 sm:p-8 flex flex-col justify-between shadow-sm">
             <div className="relative aspect-[16/11] rounded-2xl overflow-hidden mb-6 bg-[#F8F7F5]">
               <img
-                src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=1200&q=85"
+                src={giftProducts[0]?.image || "/images/products/tasting-box-bundle.jpg"}
                 alt="صندوق تذوق رشفة الفاخر"
                 className="w-full h-full object-cover object-center"
               />
@@ -98,7 +98,7 @@ export const GiftSetsSection: React.FC<GiftSetsSectionProps> = ({
             {/* Starter Brew Kit */}
             <div className="bg-white rounded-3xl p-6 border border-[#E7E3DE] shadow-sm flex flex-col sm:flex-row gap-5 items-center text-right flex-1">
               <img
-                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80"
+                src={giftProducts[1]?.image || "/images/products/starter-brew-kit.jpg"}
                 alt="مجموعة تحضير المبتدئين"
                 className="w-full sm:w-40 h-40 rounded-2xl object-cover flex-shrink-0"
               />

@@ -51,8 +51,8 @@ export const DarkShowcase: React.FC<DarkShowcaseProps> = ({ onExploreTools }) =>
           <div className="lg:col-span-6 order-1 lg:order-2">
             <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl aspect-[4/3] sm:aspect-[16/11]">
               <img
-                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=85"
-                alt="طقوس تحضير القهوة المتأنية"
+                src="/images/products/gooseneck-kettle.jpg"
+                alt="طقوس تحضير القهوة المتأنية وفن السكب اليدوي"
                 className="w-full h-full object-cover object-center"
                 loading="lazy"
               />

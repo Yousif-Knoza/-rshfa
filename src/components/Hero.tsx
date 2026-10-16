@@ -54,7 +54,7 @@ export const Hero: React.FC<HeroProps> = ({
             className="group relative h-[380px] sm:h-[460px] md:h-[520px] lg:h-[560px] rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer bg-[#F6F3EF] border border-[#E7E3DE] shadow-sm transition-all duration-300 hover:shadow-xl"
           >
             <img
-              src="https://images.unsplash.com/photo-1559525839-8f85ae700268?auto=format&fit=crop&w=1200&q=85"
+              src="/images/products/sidamo-ethiopia.jpg"
               alt="محاصيل القهوة المختصة في رشفة"
               loading="eager"
               className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"

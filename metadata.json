@@ -1,6 +1,6 @@
 {
-  "name": " rshfa",
-  "description": "",
+  "name": "رشفة | متجر القهوة المختصة",
+  "description": "اكتشف محاصيل القهوة المختصة، واختر نكهتك المفضلة، واستكشف أدوات التحضير وصناديق القهوة والهدايا.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
